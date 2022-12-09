@@ -1,19 +1,49 @@
 body {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background-color: #0f192e;
+    /* background-image: url(main.jpeg); */
+    /* background-repeat: no-repeat; */
+}
+.container{
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
-
+}
+.nav{
+    display: flex;
 }
 
+.homen{
+    margin-left: 20px;
+}
+.aboutn{
+    margin-left: 20px;
+}
+.blogn{
+    margin-left: 20px;
+}
+.contactn{
+    margin-left: 20px;
+}
+.resumen{
+    margin-left: 20px;
+}
+.portfolion{
+    margin-left: 20px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
 h1{
     color: #fff;
 }
 
-h2{
-    color: #fff;
+/* button{} */
+.mains{
+    margin-top: 20%;
 }
 
 a{
@@ -42,4 +72,46 @@ a{
 .profile{
     border-radius: 50%;
     border-color: aqua;
+}
+/* .name{
+    margin-top: 10px;
+} */
+h2{
+    background-color: rgb(102, 138, 216);
+    margin-top: -10px;
+    padding: 2px;
+    width:"180px";
+    height:"200px";
+    color: white;   
+}
+h5{
+    color: gray;
+}
+.img1{
+    width:"200px";
+    height:"200px";
+}
+.name{
+    width:"200px";
+    height:"200px";
+    margin-left: 0px;
+    margin-top: -20px;
+    
+}
+.link{
+    padding: 10px;
+    margin: 10px;
+}
+.links{
+    margin-left: 30px;
+}
+.icon{
+    margin-left: 20px;
+}
+.date{margin-left: 20px;
+}
+.navbar{
+    width:"200px" ;
+    height:"200px";
+    /* padding: 10px; */
 }
